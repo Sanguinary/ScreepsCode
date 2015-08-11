@@ -1,8 +1,5 @@
-// Testing grunt code submit //
-/*
- * X | O |
- * _________
- *   |   | X
- * _________
- *   | O | 
- */
+var CreepGenerator = require( "/world/creepGenerator" );
+
+if( Memory.creeps.length < 2 ){
+  CreepGenerator.createMiner( Game.spawns.Spawn1 );
+};
