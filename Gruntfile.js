@@ -17,10 +17,10 @@ module.exports = function(grunt) {
             options: {
                 email: creds.email,
                 password: creds.password,
-                branch: 'default'
+                branch: 'dev'
             },
             dist: {
-                src: ['dist/*.js']
+                src: ['dist/dev/*.js']
             }
         }
     });

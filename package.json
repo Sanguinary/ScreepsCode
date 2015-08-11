@@ -2,7 +2,7 @@
  	"name": "ScreepsCode",
  	"version": "1.0.0",
  	"description": "Screeps code",
- 	"license": "GPL v2",
+ 	"license": "GPLv2",
  	"main": "main.js",
  	"repository": "https://github.com/Sanguinary/ScreepsCode.git",
  	"scripts": {
