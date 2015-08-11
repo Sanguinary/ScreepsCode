@@ -1,0 +1,15 @@
+{
+ 	"name": "ScreepsCode",
+ 	"version": "1.0.0",
+ 	"description": "Screeps code",
+ 	"license": "GPL v2",
+ 	"main": "main.js",
+ 	"repository": "https://github.com/Sanguinary/ScreepsCode.git",
+ 	"scripts": {
+		"start": "npm run build && grunt"
+  	},
+	"devDependencies": {
+    		"grunt": "^0.4.5",
+    		"grunt-screeps": "^1.1.0"
+	}
+}
