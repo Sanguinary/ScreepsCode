@@ -29,6 +29,7 @@ module.exports = {
     },
 
     prefabs: {
-      basicMiner: [ WORK, CARRY, MOVE ]
+      basicMiner: [ WORK, CARRY, MOVE ],
+      basicFighter: [ TOUGH, TOUGH, ATTACK, MOVE ]
     }
 }

@@ -1,15 +1,15 @@
-var CreepHelper = require( "../utilities/creepHelper.js" );
+var CreepHelper = require( "creepHelper" );
 
 module.exports = {
 
   createMiner: function( spawn, source ){
     var mem = { spawn: spawn.id };
-      if(source) {
-          mem.source = source.id;
-      }
+    if(source) {
+        mem.source = source.id;
+    }
 
-      var creepBody = CreepHelper.prefabs.basicMiner;
-      return CreepHelper.createCreep(spawn, creepBody, "worker", "harvest", mem);
+    var creepBody = CreepHelper.prefabs.basicMiner;
+    return CreepHelper.createCreep(spawn, creepBody, "worker", "mine", mem);
   },
 
   createBuilder: function( spawn, source ){
